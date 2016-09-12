@@ -1,0 +1,8 @@
+timeago:
+  timeago_node: "1"
+  timeago_comment: "1"
+  timeago_elem: "span"
+  settings: "span"
+  timeago_js_refresh_millis: "60000"
+  timeago_js_allow_future: "1"
+  timeago_js_locale_title: "0"

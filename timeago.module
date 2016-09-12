@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains timeago.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function timeago_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the timeago module.
+    case 'help.page.timeago':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Converts dynamic timestamps to a &#039;time ago&#039; format using jQuery with graceful degradation.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

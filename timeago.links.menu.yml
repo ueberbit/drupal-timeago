@@ -1,0 +1,7 @@
+timeago.timeago_config_form:
+  title: 'Timeago'
+  route_name: timeago.timeago_config_form
+  description: 'Allows administrators to adjust settings for timeago.'
+  parent: system.admin_config_ui
+  weight: 99
+

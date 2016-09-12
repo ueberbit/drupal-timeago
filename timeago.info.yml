@@ -1,0 +1,4 @@
+name: Timeago
+type: module
+description: Converts dynamic timestamps to a 'time ago' format using jQuery with graceful degradation.
+core: 8.x

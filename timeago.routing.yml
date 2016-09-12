@@ -1,0 +1,11 @@
+
+timeago.timeago_config_form:
+  path: 'admin/config/user-interface/timeago'
+  defaults:
+    _form: '\Drupal\timeago\Form\TimeagoConfigForm'
+    _title: 'TimeagoConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
