@@ -1,0 +1,5 @@
+{
+    "name": "drupal/timeago",
+    "type": "drupal-module",
+    "require": {}
+}

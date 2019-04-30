@@ -22,3 +22,13 @@ function timeago_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function timeago_library_info_alter(&$libraries, $extension) {
+  if ($extension === 'timeago') {
+    $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+    $libraries["timeago"]["js"]["js/locales/jquery.timeago.{$langcode}.js"] = [];
+  }
+}
